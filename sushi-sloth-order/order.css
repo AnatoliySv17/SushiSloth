@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #E4E8EB;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header-content img {
+    height: 20px;
+}
+
+.main {
+    padding-top: 60px;
+}
+
+.order-details {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.order-details h1 {
+    color: #fff;
+}
+
+.table-dark th,
+.table-dark td {
+    color: #fff;
+}
+
+.additional-products h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.additional-product {
+    width: 180px;
+}
+
+.additional-product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.additional-product .card-body {
+    padding: 10px;
+    text-align: center;
+    background: #444;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.contact-information,
+.delivery-address,
+.payment-type {
+    margin-top: 20px;
+}
+
+.contact-information h4,
+.delivery-address h4,
+.payment-type h4 {
+    color: #fff;
+}
+
+.form-control {
+    background: #444;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-control::placeholder {
+    color: #999;
+}
+
+.btn-primary {
+    background: #F54803;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #d43d00;
+}
+
+.restaurant-info .restaurant-card {
+    border-radius: 8px;
+    background: #222;
+    text-align: center;
+}
+
+.restaurant-card img {
+    max-width: 80%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1);
+}
+
+#pay-button:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
